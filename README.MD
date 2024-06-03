@@ -35,11 +35,11 @@ python manage.py runserver
 -----  API Endpoints------
 
 
-<!-- GET Companies -->
+### GET Companies -->
 
 http://127.0.0.1:8000/companies/
 
-<!-- POST COMPANIES  -->
+### POST COMPANIES  -->
 
 POST http://127.0.0.1:8000/companies/
 Content-Type: application/json
@@ -48,16 +48,16 @@ Content-Type: application/json
   "symbol": "AAPL"
 }
 
-<!-- DELETE /companies/{id}/ -->
+### DELETE /companies/{id}/ -->
 Deletes a company by its ID.
 
 DELETE http://127.0.0.1:8000/companies/1/
 
 
-<!-- Downloads CSV -->
+###  Downloads CSV -->
 GET http://127.0.0.1:8000/export/
 
 
-<!-- RUN TESTS -->
+### RUN TESTS -->
 
 python manage.py test
